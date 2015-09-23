@@ -33,7 +33,7 @@ if __name__=='__main__':
     result = search(mname)
     if not result:
         print u'没有搜索到结果'
-    print u'搜索到%d部电影:'%len(result)
+    print u'搜索到%d部电影:' % len(result)
     for r in result:
         downurl = getDownurl(r['link'])
         print '''
