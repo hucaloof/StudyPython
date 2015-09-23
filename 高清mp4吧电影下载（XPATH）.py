@@ -29,7 +29,6 @@ def getDownurl(link):
 
 if __name__=='__main__':
     mname = raw_input('请输入要搜索的电影名:')
-    # mname = '冰与火之歌'
     result = search(mname)
     if not result:
         print u'没有搜索到结果'
